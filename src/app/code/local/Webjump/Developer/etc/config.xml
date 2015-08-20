@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webjump_Developer>
+            <version>0.0.1</version>
+        </Webjump_Developer>
+    </modules>
+    <global>
+        <helpers>
+            <webjump_developer>
+                <class>Webjump_Developer_Helper</class>
+            </webjump_developer>
+        </helpers>
+    </global>
+</config>

@@ -1,0 +1,15 @@
+{
+    "name": "Webjump/Developer",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Features to help in the development of Magento themes",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Rafael Corrêa Gomes",
+            "email":"rafaelcg_stz@hotmail.com"
+        }
+    ]
+}
