@@ -6,7 +6,6 @@ Facts
 -----
 - version: 0.0.1
 - [extension on GitHub](https://github.com/rafaelstz/Webjump_Developer)
-- [direct download link](http://connect.magentocommerce.com/community/get/Webjump_Developer-1.0.0.tgz)
 
 Requirements
 ------------
@@ -25,12 +24,12 @@ Installation Instructions
 
 Uninstallation
 --------------
-1. Remove all extension files from your Magento installation
-2. ...
+1. Remove all extension files from your Magento installation.
+2. Clear the cache, logout from the admin panel and then login again.
 
 Support
 -------
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/webjump/Webjump_Developer/issues).
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/rafaelstz/Magento_Webjump_Developer/issues).
 
 Contribution
 ------------
@@ -39,8 +38,7 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 Developer
 ---------
 Rafael Corrêa Gomes
-[http://www.firstname-lastname.com](http://www.firstname-lastname.com)
-[@FirstNameLastName](https://twitter.com/FirstNameLastName)
+[@rafaelcgstz](https://twitter.com/rafaelcgstz)
 
 Licence
 -------
@@ -48,4 +46,4 @@ Licence
 
 Copyright
 ---------
-(c) 2015 Webjump
+(c) 2015 [Webjump Magento Partner](https://github.com/webjump)
