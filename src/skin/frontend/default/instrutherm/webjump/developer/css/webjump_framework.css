@@ -1,0 +1,75 @@
+/* Webjump Framework CSS v0.0.1 */
+/* For customize themes in development */
+
+body, input, textarea, select, button { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-font-feature-settings: "liga", "kern"; }
+
+.no-fontsmoothing { -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: auto; }
+
+::-moz-selection { /* Code for Firefox */ color: white; background: #BF202F; }
+
+::selection { color: white; background: #BF202F; text-shadow: none; box-shadow: none;}
+
+/* Text */
+.uppercase		{ text-transform: uppercase;}
+
+/* Position */
+.relative { position: relative; }
+
+.absolute { position: absolute; }
+
+/* Margin */
+.margin-0-0-05 { margin: 0 0 0.5em; }
+
+.margin-1 { margin: 1em; }
+
+.margin-1-auto { margin: 1em auto; }
+
+.margin-1-0 { margin: 1em 0; }
+
+.margin-015 { margin: 1.5em; }
+
+.margin-2-0 { margin: 2em; }
+
+.margin-2-auto { margin: 2em auto; }
+
+.margin-2 { margin: 2em; }
+
+.margin-025-0-0 { margin: 2.5em 0 0; }
+
+.margin-1-0-0{margin: 1em 0 0;}
+
+/* Padding */
+.padding-1 { padding: 1em; }
+
+.padding-1-0 { padding: 1em 0; }
+
+.padding-015 { padding: 1.5em; }
+
+.padding-2 { padding: 2em; }
+
+.padding-2-0 { padding: 2em 0; }
+
+/* Width */
+.w25			{ width: 25%;}
+.w50			{ width: 50%;}
+.w100			{ width: 100%;}
+
+/* HACKs */
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+
+  }
+@media (min-width: 768px) and (max-width: 991px) {
+
+  }
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  }
+@media (min-width: 1200px) {
+
+  }

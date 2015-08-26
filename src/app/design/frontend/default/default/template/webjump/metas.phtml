@@ -1,0 +1,90 @@
+<?php if(isset($_SERVER['HTTP_ACCEPT_ENCODING']) && substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip'))
+		ob_start('ob_gzhandler');
+	else
+		ob_start();
+    header('X-Powered-By:');
+	header('Vary: Accept-Encoding');
+	header('Accept-Encoding:gzip');
+	header('Cache-Control:public, max-age=31536000');
+	header('Connection:keep-alive');
+	header('Content-Type:text/html; charset=UTF-8');
+
+	$offset = 60 * 60;
+	$expire = "expires: " . gmdate("D, d M Y H:i:s", time() + $offset) . " GMT";
+	header( $expire );
+    ?>
+
+<meta http-equiv="x-dns-prefetch-control" content="off">
+<meta name="viewport" content="width=320, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="dns-prefetch" href="<?php echo $this->getBaseUrl() ?>">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//oauth.googleusercontent.com">
+<link rel="dns-prefetch" href="//ssl.gstatic.com">
+<link rel="dns-prefetch" href="//platform.twitter.com">
+<link rel="dns-prefetch" href="//static.ak.facebook.com">
+<link rel="dns-prefetch" href="//connect.facebook.net">
+<link rel="dns-prefetch" href="//fbstatic-a.akamaihd.net">
+<link rel="dns-prefetch" href="//www.facebook.com">
+<link rel="dns-prefetch" href="//m.addthis.com">
+<link rel="dns-prefetch" href="//api-public.addthis.com">
+<link rel="dns-prefetch" href="//s7.addthis.com">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Content-Type" content="<?php echo $this->getContentType() ?>" />
+<link rel="prefetch" href="<?php echo $this->getSkinUrl() ?>images/webjump.png">
+<meta name="copyright" content="<?php echo Mage::app()->getStore()->getFrontendName(); ?>">
+<meta name="language" content="PT">
+<meta name="Classification" content="Business">
+<meta name="author" content="Webjump Magento Partner, contato@webjump.com.br">
+<meta name="reply-to" content="contato@webjump.com.br">
+<meta name="url" content="<?php echo $this->getBaseUrl() ?>">
+<meta name="identifier-URL" content="<?php echo $this->getBaseUrl() ?>">
+<meta name="directory" content="submission">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="revisit-after" content="7 days">
+<link rel="canonical" href="<?php echo Mage::app()->getStore()->getCurrentUrl(); ?>" />
+<?php
+if (Mage::getSingleton('cms/page')->getIdentifier() == 'home-left'): ?>
+  <!-- Google Rich Snnipets -->
+  <script type="application/ld+json">
+     {
+       "@context": "http://schema.org",
+       "@type": "Organization",
+       "url": "<?php echo $this->getBaseUrl() ?>",
+       "logo": "<?php echo $this->getLogoSrc() ?>",
+       "name": "<?php echo Mage::getStoreConfig('general/store_information/name');  ?>",
+       "telephone" : "<?php Mage::getStoreConfig('general/store_information/phone'); ?>",
+       "foundingDate" : "1984",
+       "location" : "Rua Jorge de Freitas, 264 - Freguesia do Ó, São Paulo, Brasil",
+       "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "São Paulo, Brasil",
+          "postalCode": "02911-030",
+          "streetAddress": "Jorge de Freitas, 264 - Freguesia do Ó"
+        },
+       "contactPoint" : [{
+          "@type" : "ContactPoint",
+          "telephone" : "<?php Mage::getStoreConfig('general/store_information/phone'); ?>",
+          "url": "<?php echo $this->getBaseUrl() ?>contacts",
+          "contactType" : "customer service"
+        }],
+        "email": "<?php Mage::getStoreConfig('trans_email/ident_general/email'); ?>"
+     }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "<?php echo $this->getBaseUrl() ?>",
+      "name": "<?php echo Mage::getStoreConfig('general/store_information/name');  ?>",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "<?php echo $this->getBaseUrl() ?>catalogsearch/result/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+</script>
+<?php endif ?>

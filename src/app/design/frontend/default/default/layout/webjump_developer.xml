@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+    <layout version="0.1.0">
+        <default>
+            <reference name="head">
+                <block type="core/template" name="metas" as="metas" template="webjump/developer/metas.phtml" />
+                <action method="addItem">
+    				<type>skin_js</type>
+    				<name>webjump/developer/css/webjump_framework.css</name>
+    			</action>
+                <action method="addItem">
+    				<type>skin_js</type>
+    				<name>webjump/developer/js/webjump_library.js</name>
+    			</action>
+            </reference>
+        </default>
+    </layout>
