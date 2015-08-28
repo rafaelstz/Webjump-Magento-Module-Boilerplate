@@ -1,4 +1,4 @@
-Webjump Developer Extension
+Webjump Developer Extension [![Codacy Badge](https://api.codacy.com/project/badge/cb8ee36c9cac42efbe5e13f6412c6eee)](https://www.codacy.com/app/rafaelcg_stz/Magento_Webjump_Developer)
 =====================
 Features to help in the development of Magento themes
 
