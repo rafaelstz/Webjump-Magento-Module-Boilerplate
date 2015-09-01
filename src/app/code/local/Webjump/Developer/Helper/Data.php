@@ -2,9 +2,9 @@
 
 class Webjump_Developer_Helper_Data extends Mage_Core_Helper_Abstract {
 
-	public function getBreadcrumbs($namePage, $sepateElement){
+	public function getBreadcrumbs($namePage){
 		$html = null;
-		if(!($sepateElement)): $sepateElement = "&gt"; endif;
+		$sepateElement = "&gt";
 		if($namePage):
 			$html = '<div class="breadcrumbs">
 					    <ul>
