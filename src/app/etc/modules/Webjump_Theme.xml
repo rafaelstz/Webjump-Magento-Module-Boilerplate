@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webjump_Theme>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </Webjump_Theme>
+    </modules>
+</config>
+
