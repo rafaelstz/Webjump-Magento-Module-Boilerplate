@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<config>
+    <tabs>
+        <webjump translate="label">
+            <label>WebJump Extensions</label>
+            <sort_order>10</sort_order>
+        </webjump>
+    </tabs>
+    <sections>
+        <webjump_theme translate="label">
+            <tab>webjump</tab>
+            <label>Tema</label>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <theme_geral translate="label">
+                    <label>Geral</label>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment><![CDATA[<a href="http://www.webjump.com.br/contato/" target="_blank">Entre em contato</a><br/><span><a href="http://www.webjump.com.br" target="_blank"><img title="WebJump Magento Partner" alt="WebJump Magento Partner" src="http://www.webjump.com.br/wp-content/uploads/2014/01/logo-webjump3.png"/></a></span><span><a href="http://www.webjump.com.br" target="_blank"><img style="max-height: 60px;" title="WebJump Magento Partner" alt="WebJump Magento Partner" src="http://www.webjump.com.br/wp-content/themes/rivers/images/magento-solution.png"/></a></span><br/><br/><hr><br>]]></comment>
+                    <fields>
+                        <home_product_list>
+                            <label>Categoria para listagem de produtos na Home</label>
+                            <comment>Caso não haja valor, irá exibir os mais vendidos.</comment>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>100</sort_order>
+                        </home_product_list>
+                        <id_website_b2b>
+                            <label>ID do seu website B2B</label>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>200</sort_order>
+                        </id_website_b2b>
+                    </fields>
+                </theme_geral>
+                <meta_color>
+                    <label>Meta color</label>
+                    <sort_order>200</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <meta_status>
+                            <label>Status</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <sort_order>100</sort_order>
+                        </meta_status>
+                        <meta_color>
+                            <label>Meta Color</label>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <comment>Cor em HEX. Exemplo: #FFFFFF</comment>
+                            <sort_order>200</sort_order>
+                        </meta_color>
+						<meta_color_apple>
+							<label>Meta Color Apple</label>
+							<frontend_type>text</frontend_type>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+							<comment>Exemplo: default, black, black-translucent.</comment>
+							<sort_order>300</sort_order>
+						</meta_color_apple>
+                    </fields>
+                </meta_color>
+            </groups>
+        </webjump_theme>
+    </sections>
+</config>

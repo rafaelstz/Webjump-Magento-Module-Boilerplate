@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webjump_Theme>
+            <version>1.0.0</version>
+        </Webjump_Theme>
+    </modules>
+    <global>
+        <helpers>
+            <webjump_theme>
+                <class>Webjump_Theme_Helper</class>
+            </webjump_theme>
+        </helpers>
+        <default>
+        <webjump_theme>
+            <meta_color>
+                <meta_status>0</meta_status>
+                <meta_color_apple>black-translucent</meta_color_apple>
+            </meta_color>
+        </webjump_theme>
+    </default>
+    </global>
+</config>
