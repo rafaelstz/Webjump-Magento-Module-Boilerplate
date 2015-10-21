@@ -1,4 +1,4 @@
-Magento Magento Module Boilerplate [![Codacy Badge](https://api.codacy.com/project/badge/cb8ee36c9cac42efbe5e13f6412c6eee)](https://www.codacy.com/app/rafaelcg_stz/Magento_Webjump_Developer)
+Webjump Magento Module Boilerplate [![Codacy Badge](https://api.codacy.com/project/badge/cb8ee36c9cac42efbe5e13f6412c6eee)](https://www.codacy.com/app/rafaelcg_stz/Magento_Webjump_Developer)
 =====================
 Help development of Magento Modules
 
