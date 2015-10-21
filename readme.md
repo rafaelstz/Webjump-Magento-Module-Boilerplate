@@ -1,11 +1,11 @@
-Webjump Magento Module Boilerplate [![Codacy Badge](https://api.codacy.com/project/badge/cb8ee36c9cac42efbe5e13f6412c6eee)](https://www.codacy.com/app/rafaelcg_stz/Magento_Webjump_Developer)
+Magento Magento Module Boilerplate [![Codacy Badge](https://api.codacy.com/project/badge/cb8ee36c9cac42efbe5e13f6412c6eee)](https://www.codacy.com/app/rafaelcg_stz/Magento_Webjump_Developer)
 =====================
-Features to help in the development of Magento themes
+Help development of Magento Modules
 
 Facts
 -----
 - version: 0.0.1
-- [extension on GitHub](https://github.com/rafaelstz/Webjump_Developer)
+- [extension on GitHub](https://github.com/rafaelstz/Webjump-Magento-Module-Boilerplate)
 
 Requirements
 ------------
@@ -29,7 +29,7 @@ Uninstallation
 
 Support
 -------
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/rafaelstz/Magento_Webjump_Developer/issues).
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/rafaelstz/Webjump-Magento-Module-Boilerplate/issues).
 
 Contribution
 ------------
